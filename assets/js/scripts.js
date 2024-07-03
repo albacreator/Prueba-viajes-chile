@@ -12,22 +12,19 @@ $(document).ready(function () {
     });
 });
 
+$(window).scroll(function(){
+   
 
-
-
-
-
-
-$(function () {
-    $(window).scroll(function () {
-      var navegador = $(".navbar");
-      if ($(this).scrollTop() > 100) {
-        navegador.css("background", "trasparent");
+    if ($(this).scrollTop() > 8000) {
+        $("#menu").removeClass("navbar");
+       $('#menu').addClass("bg-interno");
       } else {
-        navegador.css("background", "none");
+    
+       $("#menu").removeClass("bg-interno");
+       $('#menu').addClass("navbar");
       }
-    });
-  });
+
+   });
 
 
 
