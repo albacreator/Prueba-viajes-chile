@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!-- nombre de pagina -->
+    <link rel="shortcut icon" href="./assets/img/avion.png" type="image/x-icon">
+    <!-- icono de la pagina -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Style -->
+    <!-- datos sobre el creador de la pagina -->
+    <meta name="author" content="Alba Mejia">
+    <meta name="description" content="Conoce chile con nosotros">
+    <meta name="keywords" content="viajes,nieve,montañas">
+    <!-- link de google-fonts o nuestra fuente  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <!-- Link iconos -->
+    <script src="https://kit.fontawesome.com/c16c4ff2fd.js" crossorigin="anonymous"></script>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- barra de navegacion o el nav -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/viajes.svg" alt="logo">
+            </a>
+            <a class="navbar-brand titulo text-light" href="#">Viajes Chile</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent Style">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- inicio del carousel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- section de contenido parrafos -->
+    <section class="contenedor">
+        <h1 class="text-withe fw-bold text-center px-5">Quienes Somos</h1>
+        <div class="container" id="quienes-somos">
+            <div class="row justify-content-md-center">
+
+                <div class="col1 col-sm col-lg">
+                    <div class="icon1 " id="icon-1"><i class="fa fa-plane"></i></i></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices mauris quam, eget
+                        luctus ex porttitor nec. Quisque rhoncus, quam eu elementum sodales, mauris tortor condimentum
+                        lectus, ac aliquet mauris leo non eros. Morbi interdum arcu sit amet nibh scelerisque gravida.
+                        Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce
+                        porta a
+                        lorem id efficitur. Vivamus luctus est diam, et sagittis ex fermentum eu. Pellentesque sit amet
+                        elementum diam, id luctus ante. Sed euismod tempus orci sit amet dictum. Sed vitae diam sit amet
+                        mauris elementum lobortis. Vestibulum commodo, lacus vel hendrerit suscipit, tortor erat
+                        facilisis
+                        nisl, eget vehicula mauris felis sed nisi. Donec non posuere nibh. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Quisque semper odio a mollis auctor. Morbi consectetur justo id dui
+                        bibendum fringilla</p>
+                </div>
+
+                <div class="col2 col-sm col-lg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices mauris quam, eget
+                        luctus ex porttitor nec. Quisque rhoncus, quam eu elementum sodales, mauris tortor condimentum
+                        lectus, ac aliquet mauris leo non eros. Morbi interdum arcu sit amet nibh scelerisque gravida.
+                        Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce
+                        porta a
+                        lorem id efficitur. Vivamus luctus est diam, et sagittis ex fermentum eu. Pellentesque sit amet
+                        elementum diam, id luctus ante. Sed euismod tempus orci sit amet dictum. Sed vitae diam sit amet
+                        mauris elementum lobortis. Vestibulum commodo, lacus vel hendrerit suscipit, tortor erat
+                        facilisis
+                        nisl, eget vehicula mauris felis sed nisi. Donec non posuere nibh. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Quisque semper odio a mollis auctor. Morbi consectetur justo id dui
+                        bibendum fringilla</p>
+                    <div class="icon2" id="icon-2"><i class="fa-solid fa-mountain"></i></i></div>
+                </div>
+
+
+                <div class="col3 col-sm col-lg">
+                    <div class="icon3" id="icon-3"><i class="fa-solid fa-route"></i></div>
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices mauris quam, eget
+                        luctus ex porttitor nec. Quisque rhoncus, quam eu elementum sodales, mauris tortor condimentum
+                        lectus, ac aliquet mauris leo non eros. Morbi interdum arcu sit amet nibh scelerisque gravida.
+                        Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce
+                        porta a
+                        lorem id efficitur. Vivamus luctus est diam, et sagittis ex fermentum eu. Pellentesque sit amet
+                        elementum diam, id luctus ante. Sed euismod tempus orci sit amet dictum. Sed vitae diam sit amet
+                        mauris elementum lobortis. Vestibulum commodo, lacus vel hendrerit suscipit, tortor erat
+                        facilisis
+                        nisl, eget vehicula mauris felis sed nisi. Donec non posuere nibh. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Quisque semper odio a mollis auctor. Morbi consectetur justo id dui
+                        bibendum fringilla</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion de cards -->
+    <section class="container-destacados ">
+
+        <h1 class="text-withe fw-bold text-center" id="destacados">Destacados</h1>
+
+
+        <div class="row">
+            <div class="col-sm-3 col 12 px-1 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
+                    <div class="card-body">
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
+                            aceleifend risus, urna auctor inceptos mattis dapibus..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col 12 px-1 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
+                    <div class="card-body">
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
+                            aceleifend risus, urna auctor inceptos mattis dapibus..</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col 12 px-1 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="card2">
+                    <div class="card-body">
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
+                            aceleifend risus, urna auctor inceptos mattis dapibus.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col 12 px-1 mb-2">
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="card2">
+                    <div class="card-body">
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
+                            aceleifend risus, urna auctor inceptos mattis dapibus.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- formulario -->
+    <section class="form">
+        <div class="formulario px-5">
+            <h1 class="text-withe fw-bold text-center" id="contacto">Contacto</h1>
+            <div class="mb-3 px-5">
+                <label for="exampleFormControlInput1" class="text-center form-label">Nombre</label>
+                <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3 px-5">
+                <label for="exampleFormControlInput1" class="text-center form-label">Asunto</label>
+                <input type="asunto" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3 px-5">
+                <label for="exampleFormControlTextarea1" class="text-center form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+            </div>
+            <div class=" px-5">
+                <button id="form-send" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- nuestro footer o pie de pagina con iconos y link a pagina oficial -->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <h2 class="text-withe fw-bold display-5"> Viajes Chile </h2>
+                </div>
+                <div class="col-7 px-4">
+                    <div class="row text-light">
+                        <div class="col-2">
+                            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                        </div>
+                        <div class="col-2">
+
+                            <a href=" https://cl.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2x"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href=" https://x.com/?lang=es" target="_blank"><i
+                                    class="fa-brands fa-twitter fa-2x"></i></a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook fa-2x"></i></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- estilo js -->
+    <script src="assets/js/scripts.js"></script>
+    <!-- nuestro script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <!-- link de jquery -->
+
+
+</body>
+
+</html>

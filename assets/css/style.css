@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+    font-family: "Playwrite", sans-serif;
+    color: #ffffff;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: transparent;
+    color: white;
+    font-family: "Playwrite",sans-serif;
+
+}
+
+@media (max-width: 768px){}
+.navbar-brand img{
+    height: 3.3125rem;
+
+}
+
+.contenedor{
+   background-color: black;
+    color: white;
+    height: auto;
+
+}
+.col1 .col2 .col3{
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+}
+
+
+
+.container-destacados{
+  background-color: black;
+    color: white;
+
+}
+
+.formulario{
+  background-color: black;
+    color: white;
+}
+
+.icon1{
+    background:aqua;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.icon2{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.icon3{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+   
+
+}
+
+.row{
+    padding-top: 3.75rem;
+    margin-top: 30px;
+    padding-left: 3.75rem;
+
+}
+.row img{
+    width: 100%;
+}
+
+
+.btn{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    background-color: aqua;
+    color: aliceblue;
+    font-family: "Playwrite", sans-serif;
+    font-size: 20px;
+   
+   
+}
