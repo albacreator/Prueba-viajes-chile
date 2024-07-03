@@ -13,26 +13,29 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function () {
-    $("#quienes-somos").on('click', function (event) {
-        if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
+var $root = $('html, body');
 
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function () {
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 100
+    }, 500);
 
-                window.location.hash = hash;
-            });
-        }
-    });
+    return false;
 });
 
 
 
 
-
+$(function () {
+    $(window).scroll(function () {
+      var navegador = $(".navbar");
+      if ($(this).scrollTop() > 100) {
+        navegador.css("background", "trasparent");
+      } else {
+        navegador.css("background", "none");
+      }
+    });
+  });
 
 
 
